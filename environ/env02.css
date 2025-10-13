@@ -1,0 +1,50 @@
+html {background-image: url("notebook\ background.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;}
+
+#guppy {
+    width: 100px;
+    height: 100px;
+}
+
+#cat {width: 100px;}
+#arrows {
+    width: 100px;
+    rotate: 270deg;}
+
+h3 {
+   background-color: lightblue;
+   padding: 20px;
+   border: 20px;
+   text-shadow: 20px;
+   text-align: center;
+   outline: 20px;
+}
+
+body {
+    font-size: large;
+}
+
+.GuppyCat {
+    display: flex;
+}
+.guppy {
+    background-image: url(Insaniaquarium\ tank.webp);
+    padding: 30px;
+    margin: 30px;
+}
+
+.kitty {
+    background-image: url(Background.jpg);
+    padding: 30px;
+    margin: 30px;
+}
+
+.ending {
+    font-weight: 100;
+}
+details {cursor: pointer;}
+
+strong {
+    font-weight: bold;
+}

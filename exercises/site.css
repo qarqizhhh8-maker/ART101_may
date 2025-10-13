@@ -1,0 +1,32 @@
+#mypic {width: 200px;
+border-radius: 10px;}
+
+p {
+    color: rgb(64, 55, 67);
+    font-family: sans-serif;
+}
+
+
+#introduction h2 { font-style: italic; color: gray;}
+#introduction p { font-size: 120%;}
+.sidebyside {
+    display: flex;
+    gap: 50px;
+}
+.navigation {
+    display: flex;
+    gap: 20px;
+    background-color: aliceblue;
+
+}
+.journey {
+    background-color: lightblue;
+    padding: 10px;
+}
+
+html {background-image: url(star.gif);}
+
+.title {
+    background-color:lightblue;
+    padding: 20px;
+}

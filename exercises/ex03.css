@@ -1,0 +1,51 @@
+
+
+.test-div{
+    background-color: lightblue;
+    margin: 20px;
+    padding: 20px;
+}
+
+.test-div h1{
+    background-color: lightpink;
+    margin: 20px;
+    padding: 20px;
+    text-decoration:underline;
+    text-decoration-color: red;
+    border: 20px black;
+}
+
+.test-div h2 {
+    color: blue;
+}
+
+.real-div {
+    background-color: lightblue;
+    padding: 20px;
+}
+
+.special {
+    background-color: green;
+}
+
+button.special {
+    color: purple;
+    background-color: plum;
+}
+
+#horse {
+    background-color: lightgoldenrodyellow;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+#split {
+    display: flex;
+    flex-direction: row;
+}
+
+#column {
+    display: flex;
+    flex-direction: column;
+}
