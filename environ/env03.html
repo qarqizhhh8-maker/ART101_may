@@ -1,0 +1,73 @@
+<html>
+
+<head>
+  <link rel="stylesheet"href="env03.css" rel="stylesheet type="text/css" />
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  
+  //<script src="lab4.js" defer></script>
+</head>
+
+
+<body>
+<h3>Once upon a time, there lived The Guppy. He lived in a beautiful and peaceful pond.</h3>
+    
+    <div class="Guppycat">
+          
+      <div class="guppy">
+        <img id="guppy" src="Guppy.webp"/>
+          <script>
+          const image = document.getElementById('guppy');
+
+          let position = 0;
+          let velocity = 1;
+          const bounceHeight = 100;
+
+          function bounce() {
+            position += velocity;
+    
+            if (position >= bounceHeight || position <= 0) {
+              velocity = -velocity;
+            }
+    
+            image.style.transform = `translateY(${position}px)`;
+    
+            requestAnimationFrame(bounce);
+          }
+          bounce();
+          </script>
+        <span class="highlighted-text">
+            His friend, a kitty cat, came by to visit. Kitty cat slapped the water. "Knock Knock" <br>
+            "Who's there?" Guppy cried out. <br>
+            "Meow" <br>
+            "Meow who" <br>
+           "It's meow or never! Lemme in." Guppy felt a shiver go down his back.
+            This is odd, he doesn't have any friends and stays inside all the time. Who could this be?
+            Guppy looked through the peephole and there, The Kitty Cat was staring back.
+      </div></span>
+    
+      <div class="kitty">
+          <img id="cat" src="cat-smile.gif"/>
+
+          <span class="highlighted-text">
+          <br>
+          Guppy's heart dropped. Cat was much bigger than Guppy was and it's a well known fact that cats enjoy the taste of fish.
+          Guppy ducked under cover and kept a close eye on his front door.<br>
+      </div></span>
+    </div>
+
+<div class="ending"><details> 
+  <summary>WHAT HAPPENS!?!?? </summary>
+
+    <p> 
+        What the Kitty Cat didn't know is that Guppy is a <strong> proud American</strong> with strong advocay for the second amendment. Guppy is
+        <strong> armed and dangerous</strong>.
+        Guppy held tightly to his <strong>Pump-Action Shotgun,</strong>
+    <br><br>
+    <i> A tried-and-true choice, the pump-action shotgun provides reliability at a reasonable price. It requires manual action to eject and load shells. Ideal for hunting, sport shooting, and most importantly home defense.</i>
+    </p>
+   
+</div></details>
+
+</body>
+
+</html>

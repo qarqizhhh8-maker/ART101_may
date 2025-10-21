@@ -1,0 +1,69 @@
+html {background-image: url("notebook\ background.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;}
+
+#guppy {
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+}
+
+#cat {
+    margin: 20px;
+    width: 200px; 
+}
+
+h3 {
+   background-color: lightblue;
+   padding: 20px;
+   border: 20px;
+   text-shadow: 20px;
+   text-align: center;
+   outline: 20px;
+}
+
+body {
+    font-size: large;
+}
+
+.GuppyCat {
+    display: flex;
+    
+}
+.guppy {
+    background-image: url(Insaniaquarium\ tank.webp);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 30px;
+    margin: 30px;
+    display: flex;
+}
+
+.highlighted-text{
+    background-color: rgba(255, 255, 255, 0.5);
+    background-blend-mode: difference;
+    padding: 10px;
+    
+}
+.kitty {
+    background-image: url(Background.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 30px;
+    margin: 30px;
+    display: flex;
+}
+
+.ending {
+    font-weight: 100;
+}
+button{
+    padding:20px;
+    background-image: url(fish_gun.png);
+}
+
+details {cursor: pointer;}
+
+strong {
+    font-weight: bold;
+}
