@@ -27,8 +27,7 @@ body {
 }
 
 .GuppyCat {
-    display: flex;
-    
+    display: flex;   
 }
 .guppy {
     background-image: url(Insaniaquarium\ tank.webp);
@@ -64,6 +63,4 @@ button{
 
 details {cursor: pointer;}
 
-strong {
-    font-weight: bold;
-}
+strong { font-weight: bold;}
