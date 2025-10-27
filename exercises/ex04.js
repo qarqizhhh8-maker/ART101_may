@@ -1,9 +1,3 @@
-// button that says "click me"
-//when clicked, button says "Clicked x time"
-//every click is +1 to the x
-//if x is over 1, button changes to "Clicked x times"
-//a top limit of 100
-
 /*let totalNumber = 0;
 
 $("#needy_button").click(function(){
@@ -25,20 +19,30 @@ $("#cat").click(function(){
 })
 */
 
-//professor example
-//what it does: click button = background
-let count = 0;
-let colors = ["Orchid", "Coral", "HotPink", "Plum"];
+var count = 0;
+let colorCount=0;
+var colors = ["Orchid", "Coral", "HotPink", "Plum"]; 
 
-$("#flower").click( function(){
-    
-    let reminder=count % colors.length;
 
-    $("#flower").html( "Clicks: " + count + "Color " + 
-    colors[count]);
+$("#flower").click(function () {
+
+    if ( count < 5) { mood = "fresh and happy" ; }
+    else if ( (count >=5) && (count <10 ) ) { mood="keep pushing"; }
+    else { mood = "so tired" ; }
+
+    $("#flower").html( "Clicks: " + count + ", Color: " + colors[colorCount] + ", " + mood); //print "text" + var
+
+    $("body").css("background-color", colors[colorCount]);
+
+    if ( colors[colorCount] == "Orchid" ) {
+        $("body").append("<img width=50 src='cat.jpg'>");
+    }
+
     count = count + 1;
+    colorCount = colorCount + 1;
 
-    $("body").css("background-color", colors[reminder]);
+    if ( colorCount == 4 ) {  colorCount=0;  } //loops colorCount
+
 });
 
 
